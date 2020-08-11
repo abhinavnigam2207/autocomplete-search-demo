@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/locus-assignment/static/css/main.d33b0bca.chunk.css",
+    "main.js": "/locus-assignment/static/js/main.8858345e.chunk.js",
+    "main.js.map": "/locus-assignment/static/js/main.8858345e.chunk.js.map",
+    "runtime-main.js": "/locus-assignment/static/js/runtime-main.8cbd66f0.js",
+    "runtime-main.js.map": "/locus-assignment/static/js/runtime-main.8cbd66f0.js.map",
+    "static/js/2.36aa39a6.chunk.js": "/locus-assignment/static/js/2.36aa39a6.chunk.js",
+    "static/js/2.36aa39a6.chunk.js.map": "/locus-assignment/static/js/2.36aa39a6.chunk.js.map",
+    "index.html": "/locus-assignment/index.html",
+    "precache-manifest.f166a5110b64a3e1c658a36dd01b16ef.js": "/locus-assignment/precache-manifest.f166a5110b64a3e1c658a36dd01b16ef.js",
+    "service-worker.js": "/locus-assignment/service-worker.js",
+    "static/css/main.d33b0bca.chunk.css.map": "/locus-assignment/static/css/main.d33b0bca.chunk.css.map",
+    "static/js/2.36aa39a6.chunk.js.LICENSE.txt": "/locus-assignment/static/js/2.36aa39a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cbd66f0.js",
+    "static/js/2.36aa39a6.chunk.js",
+    "static/css/main.d33b0bca.chunk.css",
+    "static/js/main.8858345e.chunk.js"
+  ]
+}

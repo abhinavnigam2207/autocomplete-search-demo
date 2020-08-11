@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "307cf17bf7f2cfa1cc61ca3e260e01ec",
+    "revision": "9fb41ff683d5648a234458f902ebd683",
     "url": "/locus-assignment/index.html"
   },
   {
-    "revision": "0ac635484a4777118845",
+    "revision": "34028601fca9e696466d",
     "url": "/locus-assignment/static/css/main.d33b0bca.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/locus-assignment/static/js/2.36aa39a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ac635484a4777118845",
-    "url": "/locus-assignment/static/js/main.8858345e.chunk.js"
+    "revision": "34028601fca9e696466d",
+    "url": "/locus-assignment/static/js/main.1a0a1bda.chunk.js"
   },
   {
     "revision": "c30eb132427f42402028",

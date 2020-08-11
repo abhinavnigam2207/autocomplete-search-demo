@@ -1,0 +1,9 @@
+.closeIcon{
+  position: relative;
+  left: 185px;
+  top: 35px;
+}
+
+.hidden{
+  visibility: hidden;
+}

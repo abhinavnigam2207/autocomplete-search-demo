@@ -1,0 +1,49 @@
+
+.autocomplete-suggestions {
+  text-align: left;
+  max-height: 21.875em;
+  overflow-y: scroll;
+}
+
+.suggestion{
+  padding: 20px;
+  border-bottom: 0.5px solid #B3B7BD;
+  color: #575D65;
+}
+.suggestion.active{
+  background: #FFFEDD;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #EFEFEF;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C7C7C7;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.italics{
+  font-style: italic;
+}
+
+.pad025{
+  padding: 0.25em 0;
+}
+
+ul{
+  margin-block-end: 0.25em;
+  margin-block-start: 0.25em;
+  padding-inline-start: 1em;
+  border-top: 0.1px solid #B3B7BD;
+  border-bottom: 0.1px solid #B3B7BD;
+  padding-block-start: 5px;
+  padding-block-end: 5px;
+}

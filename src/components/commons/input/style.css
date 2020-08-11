@@ -1,0 +1,31 @@
+.searchInput{
+  background: #F2F3F4;
+  height: 2em;
+  width: 97%;
+  padding: 0.5em;
+  border: none;
+}
+
+.searchInput::placeholder {
+  color: #B3B7BD;
+}
+
+.searchInput:-ms-input-placeholder {
+  color: #B3B7BD;
+}
+
+.searchInput::-ms-input-placeholder {
+  color: #B3B7BD;
+}
+
+.searchInput.active ::placeholder {
+  color: #FFFFFF;
+}
+
+.searchInput.active :-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+.searchInput.active ::-ms-input-placeholder {
+  color: #FFFFFF;
+}

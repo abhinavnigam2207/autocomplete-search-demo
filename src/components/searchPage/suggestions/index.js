@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import highlight from '../../../helpers/highlight';
 
 export default ({state, setHover}) => {
   const { searchedUsers, hoveredItem, searchQuery } = state;
@@ -14,10 +15,15 @@ export default ({state, setHover}) => {
             aria-selected={hoveredItem === id}
             onMouseOver={()=>{setHover({hoveredItem: id});}}
           >
-            <div className="bold">{item.id}</div>
-            <div className="italics pad025">{item.name}</div>
-            {item.items.filter((k)=>~k.toLowerCase().indexOf(searchQuery)).length > 0 && (<div><ul><li>{`"${searchQuery}" found in items`}</li></ul></div>)}
-            <div className="pad025">{item.address}</div>
+            <div className="bold">{highlight(item.id, searchQuery)}</div>
+            <div className="italics pad025">{highlight(item.name, searchQuery)}</div>
+            {item.items.filter((k)=>~k.toLowerCase().indexOf(searchQuery)).length > 0
+              && (
+                <div>
+                  <ul><li>{highlight(`"${searchQuery}" found in items`, searchQuery)}</li></ul>
+                </div>
+              )}
+            <div className="pad025">{highlight(item.address, searchQuery)}</div>
           </div>
         ))}
       </div>

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/locus-assignment/static/css/main.d33b0bca.chunk.css",
-    "main.js": "/locus-assignment/static/js/main.b17a1bbc.chunk.js",
-    "main.js.map": "/locus-assignment/static/js/main.b17a1bbc.chunk.js.map",
+    "main.js": "/locus-assignment/static/js/main.c73b264f.chunk.js",
+    "main.js.map": "/locus-assignment/static/js/main.c73b264f.chunk.js.map",
     "runtime-main.js": "/locus-assignment/static/js/runtime-main.8cbd66f0.js",
     "runtime-main.js.map": "/locus-assignment/static/js/runtime-main.8cbd66f0.js.map",
     "static/js/2.36aa39a6.chunk.js": "/locus-assignment/static/js/2.36aa39a6.chunk.js",
     "static/js/2.36aa39a6.chunk.js.map": "/locus-assignment/static/js/2.36aa39a6.chunk.js.map",
     "index.html": "/locus-assignment/index.html",
-    "precache-manifest.22194ad43f1077243f5a799b682e06d9.js": "/locus-assignment/precache-manifest.22194ad43f1077243f5a799b682e06d9.js",
+    "precache-manifest.1b7f75a50131bd2e925fab593d9054b1.js": "/locus-assignment/precache-manifest.1b7f75a50131bd2e925fab593d9054b1.js",
     "service-worker.js": "/locus-assignment/service-worker.js",
     "static/css/main.d33b0bca.chunk.css.map": "/locus-assignment/static/css/main.d33b0bca.chunk.css.map",
     "static/js/2.36aa39a6.chunk.js.LICENSE.txt": "/locus-assignment/static/js/2.36aa39a6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8cbd66f0.js",
     "static/js/2.36aa39a6.chunk.js",
     "static/css/main.d33b0bca.chunk.css",
-    "static/js/main.b17a1bbc.chunk.js"
+    "static/js/main.c73b264f.chunk.js"
   ]
 }

@@ -13,7 +13,7 @@ export default ({state, setHover}) => {
             id={`suggestion${id}`}
             role="option"
             aria-selected={hoveredItem === id}
-            onMouseOver={()=>{setHover({hoveredItem: id});}}
+            onMouseMove={()=>{setHover({hoveredItem: id});}}
           >
             <div className="bold">{highlight(item.id, searchQuery)}</div>
             <div className="italics pad025">{highlight(item.name, searchQuery)}</div>

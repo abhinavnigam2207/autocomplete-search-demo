@@ -2,7 +2,7 @@ import React, { useReducer, useEffect } from 'react';
 import { getUsers } from '../../services/users';
 import { filterData as searchUsers } from '../../utils/filter';
 import Input from '../commons/input';
-import Suggestion from './suggestions';
+import Suggestions from './suggestions';
 import NoUser from './noUserFound';
 import ClearSearch from '../commons/closeButton';
 import _ from "lodash";
@@ -37,6 +37,7 @@ export default () => {
   const moveDown = () => {
     if(state.hoveredItem < state.searchedUsers.length-1) { setState({hoveredItem: state.hoveredItem+1}); }
     else if(state.hoveredItem === state.searchedUsers.length-1) { setState({hoveredItem: 0}); }
+    console.log('moveDownCalled');
   }
 
   const moveUp = () => {
@@ -79,7 +80,7 @@ export default () => {
       <ClearSearch visible={state.searchQuery.length>0} onClickHandler={reset} />
       <main className="container">
         <Input searchQuery={state.searchQuery} onChange={onChangeHandler} onKeyDown={(e) => onKeyDownHandler(e)} />
-        {state.searchedUsers.length > 0 && (<Suggestion state={state} setHover={setState} />)}
+        {state.searchedUsers.length > 0 && (<Suggestions state={state} setHover={setState} />)}
         {(state.searchQuery.length>0 && state.searchedUsers.length<1) && (<NoUser />)}
       </main>
     </>

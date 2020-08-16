@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/locus-assignment/static/css/main.d33b0bca.chunk.css",
-    "main.js": "/locus-assignment/static/js/main.c73b264f.chunk.js",
-    "main.js.map": "/locus-assignment/static/js/main.c73b264f.chunk.js.map",
-    "runtime-main.js": "/locus-assignment/static/js/runtime-main.8cbd66f0.js",
-    "runtime-main.js.map": "/locus-assignment/static/js/runtime-main.8cbd66f0.js.map",
-    "static/js/2.36aa39a6.chunk.js": "/locus-assignment/static/js/2.36aa39a6.chunk.js",
-    "static/js/2.36aa39a6.chunk.js.map": "/locus-assignment/static/js/2.36aa39a6.chunk.js.map",
-    "index.html": "/locus-assignment/index.html",
-    "precache-manifest.1b7f75a50131bd2e925fab593d9054b1.js": "/locus-assignment/precache-manifest.1b7f75a50131bd2e925fab593d9054b1.js",
-    "service-worker.js": "/locus-assignment/service-worker.js",
-    "static/css/main.d33b0bca.chunk.css.map": "/locus-assignment/static/css/main.d33b0bca.chunk.css.map",
-    "static/js/2.36aa39a6.chunk.js.LICENSE.txt": "/locus-assignment/static/js/2.36aa39a6.chunk.js.LICENSE.txt"
+    "main.css": "/autocomplete-search-demo/static/css/main.d33b0bca.chunk.css",
+    "main.js": "/autocomplete-search-demo/static/js/main.4fd6677e.chunk.js",
+    "main.js.map": "/autocomplete-search-demo/static/js/main.4fd6677e.chunk.js.map",
+    "runtime-main.js": "/autocomplete-search-demo/static/js/runtime-main.8fdb6361.js",
+    "runtime-main.js.map": "/autocomplete-search-demo/static/js/runtime-main.8fdb6361.js.map",
+    "static/js/2.ea52ebc1.chunk.js": "/autocomplete-search-demo/static/js/2.ea52ebc1.chunk.js",
+    "static/js/2.ea52ebc1.chunk.js.map": "/autocomplete-search-demo/static/js/2.ea52ebc1.chunk.js.map",
+    "index.html": "/autocomplete-search-demo/index.html",
+    "precache-manifest.9625af44b96e9d4a8dba6e23797508a9.js": "/autocomplete-search-demo/precache-manifest.9625af44b96e9d4a8dba6e23797508a9.js",
+    "service-worker.js": "/autocomplete-search-demo/service-worker.js",
+    "static/css/main.d33b0bca.chunk.css.map": "/autocomplete-search-demo/static/css/main.d33b0bca.chunk.css.map",
+    "static/js/2.ea52ebc1.chunk.js.LICENSE.txt": "/autocomplete-search-demo/static/js/2.ea52ebc1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8cbd66f0.js",
-    "static/js/2.36aa39a6.chunk.js",
+    "static/js/runtime-main.8fdb6361.js",
+    "static/js/2.ea52ebc1.chunk.js",
     "static/css/main.d33b0bca.chunk.css",
-    "static/js/main.c73b264f.chunk.js"
+    "static/js/main.4fd6677e.chunk.js"
   ]
 }

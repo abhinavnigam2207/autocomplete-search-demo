@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Locus Assignment/i);
+  const linkElement = getByText(/Autocomplete search Demo/i);
   expect(linkElement).toBeInTheDocument();
 });
